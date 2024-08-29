@@ -1,0 +1,167 @@
+import React, { useEffect } from "react";
+import { Container } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faDiagramProject,
+  faLayerGroup,
+  faScrewdriverWrench,
+  faUserCheck,
+} from "@fortawesome/free-solid-svg-icons";
+import $ from "jquery";
+import projects from "../services/projecr_data";
+
+const Impact = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      $(
+        ".swap-impact-banner, .swap-our-impact, .swap-impact-projects, .swap-partner-testimoni"
+      ).each(function () {
+        const topOfElement = $(this).offset().top;
+        const bottomOfWindow = $(window).scrollTop() + $(window).height();
+
+        if (bottomOfWindow > topOfElement + 100) {
+          // 100 adalah offset untuk memastikan elemen sudah sepenuhnya di-scroll
+          $(this).fadeIn(1000); // Fade in the element when it comes into view
+        }
+      });
+    };
+
+    $(window).on("scroll", handleScroll);
+
+    // Run the scroll handler once to check if the element is already in view
+    handleScroll();
+
+    return () => {
+      $(window).off("scroll", handleScroll); // Cleanup the event listener on unmount
+    };
+  }, []);
+
+  return (
+    <>
+      <div className="swap-impact-banner" style={{ display: "none" }}>
+        <img
+          src="/images/swap-banner.png"
+          className="img-fluid"
+          alt="Swap Blitar"
+        />
+      </div>
+      <div className="swap-our-impact py-5 mb-5" style={{ display: "none" }}>
+        <Container fluid>
+          <h3 className="text-center fw-bold text-light">Our Impact</h3>
+          <div className="row">
+            <div className="col-lg-3">
+              <div className="card border-0">
+                <div className="card-body text-light py-5">
+                  <h1 className="text-center fw-bold mb-4">
+                    <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3">
+                      <FontAwesomeIcon icon={faScrewdriverWrench} />
+                    </span>
+                    3+
+                  </h1>
+                  <h5 className="text-center">Digital tools Created</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="card border-0">
+                <div className="card-body text-light py-5">
+                  <h1 className="text-center fw-bold mb-4">
+                    {" "}
+                    <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3">
+                      <FontAwesomeIcon icon={faLayerGroup} />
+                    </span>
+                    7
+                  </h1>
+                  <h5 className="text-center">Kemitraan Strategis</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="card border-0">
+                <div className="card-body text-light py-5">
+                  <h1 className="text-center fw-bold mb-4">
+                    {" "}
+                    <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3">
+                      <FontAwesomeIcon icon={faDiagramProject} />
+                    </span>
+                    10
+                  </h1>
+                  <h5 className="text-center">Projects Empowered</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="card border-0">
+                <div className="card-body text-light py-5">
+                  <h1 className="text-center fw-bold mb-4">
+                    {" "}
+                    <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3">
+                      <FontAwesomeIcon icon={faUserCheck} />
+                    </span>
+                    300+
+                  </h1>
+                  <h5 className="text-center">Orang Terlibar</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </div>
+
+      <div className="swap-impact-projects mb-5" style={{ display: "none" }}>
+        <Container>
+          <h3 className="fw-bold text-center mb-4">Projects</h3>
+          <div className="row">
+            {projects.map((value) => (
+              <div className="col-lg-6">
+                <div className="card border-0 rounded-0 mb-5 swap-box-project shadow">
+                  <div className="card-body rounded-0">
+                    <img
+                      src={"images/projects/" + value.image}
+                      className="img-fluid mb-4 img-thumbnail"
+                      alt="swap blitar"
+                    />
+                    <h4 className="text-light text-center">
+                      ~ {value.title} ~
+                    </h4>
+                    <p style={{ textAlign: "justify" }} className="text-light">
+                      {value.description}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </div>
+      <Container>
+        <div
+          className="mb-5 swap-partner-testimoni rounded-5"
+          style={{ display: "none" }}
+        >
+          <div className="card border-0 rounded-5">
+            <div className="card-body p-5 rounded-5 swap-partner-testimoni text-light">
+              <h3>
+                "Vivamus vel velit venenatis, aliquam turpis suscipit, laoreet
+                metus. Aliquam fringilla tortor velit, sit amet semper augue
+                condimentum sed. Phasellus eget blandit lacus. Donec lobortis
+                tempus malesuada. Cras est sem."
+              </h3>
+              <div className="mt-4 d-flex align-items-center">
+                <img
+                  className="rounded-5"
+                  src="https://letstryai.com/wp-content/uploads/2023/11/stable-diffusion-avatar-prompt-example-1.jpg"
+                  style={{ height: "50px" }}
+                  alt="swap blitar"
+                />
+                <h5 className="ms-3 fw-bold">Anna Smilla</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Container>
+    </>
+  );
+};
+
+export default Impact;
