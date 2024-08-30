@@ -27,7 +27,7 @@ const teams = [
       "Mengelola perencanaan, pelaksanaan, dan evaluasi program dan proyek organisasi, serta memastikan bahwa program mencapai tujuan dan berdampak sesuai rencana.",
     jobdesk:
       "<ul><li>Merancang dan melaksanakan program kampanye awareness di sektor pendidikan, sosial, dan lingkungan.</li><li>Mengelola dan memantau proyek-proyek kampanye.</li><li>Berkoordinasi dengan Koordinator Lapangan untuk pelaksanaan di lapangan.</li><li>Menyusun laporan program dan evaluasi hasil.</li></ul>",
-    image: "sample.jpg",
+    image: "tsania.png",
   },
 
   {
@@ -38,7 +38,7 @@ const teams = [
       "Mengawasi semua aspek media dan teknologi informasi, termasuk pengelolaan website, sistem TI, dan strategi media untuk mendukung kegiatan organisasi.",
     jobdesk:
       "<ul><li>Mengelola strategi dan implementasi media sosial SWAP, termasuk pengembangan konten dan interaksi dengan audiens.</li><li>Mengelola infrastruktur TI SWAP, termasuk perangkat keras, perangkat lunak, dan dukungan teknis.</li><li>Mengelola logistik teknologi informasi dan memastikan sistem berfungsi dengan baik.</li><li>Berkoordinasi dengan tim PR dan Program untuk memastikan konsistensi pesan dan penggunaan teknologi yang efektif.</li></ul>",
-    image: "sample.jpg",
+    image: "nandy.png",
   },
   {
     id: 5,
@@ -68,7 +68,7 @@ const teams = [
       "Menyediakan dukungan teknis sehari-hari dan memastikan semua perangkat keras dan perangkat lunak dalam NGO berfungsi dengan optimal untuk mendukung operasional yang efisien.",
     jobdesk:
       "<ul><li>Menyediakan bantuan teknis kepada member SWAP terkait penggunaan perangkat keras dan perangkat lunak.</li><li>Mengelola dan memelihara perangkat TI untuk memastikan kelancaran operasional.</li></ul>",
-    image: "sample.jpg",
+    image: "ibnuu.jpg",
   },
   {
     id: 8,

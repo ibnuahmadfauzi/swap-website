@@ -1,4 +1,5 @@
 import { Container } from "react-bootstrap";
+import partners from "../services/partner_data";
 
 const Footer = () => {
   return (
@@ -6,24 +7,14 @@ const Footer = () => {
       <Container>
         <h3 className="fw-bold text-center">Trusted by</h3>
         <div className="d-flex justify-content-center align-items-center py-3">
-          <img
-            className="mx-2"
-            src="https://png.pngtree.com/png-vector/20221215/ourmid/pngtree-school-logo-design-png-image_6524414.png"
-            style={{ height: "100px" }}
-            alt="swap blitar"
-          />
-          <img
-            className="mx-2"
-            src="https://png.pngtree.com/png-vector/20221215/ourmid/pngtree-school-logo-design-png-image_6524414.png"
-            style={{ height: "100px" }}
-            alt="swap blitar"
-          />
-          <img
-            className="mx-2"
-            src="https://png.pngtree.com/png-vector/20221215/ourmid/pngtree-school-logo-design-png-image_6524414.png"
-            style={{ height: "100px" }}
-            alt="swap blitar"
-          />
+          {partners.map((value) => (
+            <img
+              className="mx-2"
+              src={"/images/partners/" + value.image}
+              style={{ height: "100px" }}
+              alt="swap blitar"
+            />
+          ))}
         </div>
       </Container>
       <Container fluid>

@@ -69,17 +69,11 @@ const WhoWeAre = () => {
                   <h4 className="text-center p-0 m-0 fw-bold">~ Visi ~</h4>
                 </div>
                 <div className="card-body">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum.
+                  <p style={{ textAlign: "justify" }}>
+                    Menjadi gerakan pemuda yang berperan aktif dalam
+                    pengembangan Indonesia di berbagai bidang, termasuk
+                    kesehatan, pendidikan, lingkungan, sosial, ekonomi, dan
+                    budaya.
                   </p>
                 </div>
               </div>
@@ -90,18 +84,49 @@ const WhoWeAre = () => {
                   <h4 className="text-center p-0 m-0 fw-bold">~ Misi ~</h4>
                 </div>
                 <div className="card-body">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum.
-                  </p>
+                  <ul style={{ textAlign: "justify" }}>
+                    <li>
+                      Mendukung Pemuda Indonesia: Memberikan dukungan kepada
+                      pemuda Indonesia untuk berani memulai perubahan, dimulai
+                      dari langkah-langkah kecil.
+                    </li>
+                    <li>
+                      Menciptakan Kegiatan Positif: Menginisiasi dan
+                      mengembangkan kegiatan yang membawa manfaat positif bagi
+                      masyarakat Indonesia.
+                    </li>
+                    <li>
+                      Memperkuat Kesehatan: Memperkuat kesehatan fisik dan
+                      mental pemuda Indonesia, memastikan mereka tumbuh sebagai
+                      individu yang tangguh.
+                    </li>
+                    <li>
+                      Melatih Karakter Pelajar: Melatih dan membentuk karakter
+                      pelajar Indonesia agar kuat, berintegritas, dan siap
+                      menjadi generasi emas yang membanggakan bangsa.
+                    </li>
+                    <li>
+                      Peduli Lingkungan: Memastikan setiap kegiatan yang
+                      dilakukan mempertimbangkan dan menjaga aspek lingkungan,
+                      mendukung keberlanjutan alam.
+                    </li>
+                    <li>
+                      Kolaborasi Pemuda: Melibatkan pemuda, komunitas, dan
+                      organisasi lainnya untuk berpartisipasi aktif dalam
+                      berbagai kegiatan yang diselenggarakan.
+                    </li>
+                    <li>
+                      Bekerja Sama dengan UMKM: Berkolaborasi dengan Usaha
+                      Mikro, Kecil, dan Menengah (UMKM) dalam setiap kegiatan
+                      untuk mendukung perekonomian lokal.
+                    </li>
+                    <li>
+                      Menjunjung Nilai Budaya dan Nasionalisme: Menjunjung
+                      tinggi nilai-nilai budaya Indonesia dan semangat
+                      nasionalisme dalam setiap aktivitas yang dilaksanakan,
+                      demi memperkuat identitas bangsa.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
