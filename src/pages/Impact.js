@@ -4,11 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDiagramProject,
   faLayerGroup,
-  faScrewdriverWrench,
+  faMapLocation,
   faUserCheck,
 } from "@fortawesome/free-solid-svg-icons";
 import $ from "jquery";
-import projects from "../services/projecr_data";
+import projects from "../services/project_data";
+import testimonis from "../services/testimoni_data";
 
 const Impact = () => {
   useEffect(() => {
@@ -53,12 +54,27 @@ const Impact = () => {
               <div className="card border-0">
                 <div className="card-body text-light py-5">
                   <h1 className="text-center fw-bold mb-4">
+                    {" "}
                     <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3">
-                      <FontAwesomeIcon icon={faScrewdriverWrench} />
+                      <FontAwesomeIcon icon={faUserCheck} />
                     </span>
-                    3+
+                    300+
                   </h1>
-                  <h5 className="text-center">Digital tools Created</h5>
+                  <h5 className="text-center">Orang Terlibat</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="card border-0">
+                <div className="card-body text-light py-5">
+                  <h1 className="text-center fw-bold mb-4">
+                    {" "}
+                    <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3">
+                      <FontAwesomeIcon icon={faDiagramProject} />
+                    </span>
+                    10
+                  </h1>
+                  <h5 className="text-center">Kegiatan Dijalankan</h5>
                 </div>
               </div>
             </div>
@@ -80,27 +96,12 @@ const Impact = () => {
               <div className="card border-0">
                 <div className="card-body text-light py-5">
                   <h1 className="text-center fw-bold mb-4">
-                    {" "}
                     <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3">
-                      <FontAwesomeIcon icon={faDiagramProject} />
+                      <FontAwesomeIcon icon={faMapLocation} />
                     </span>
-                    10
+                    7
                   </h1>
-                  <h5 className="text-center">Projects Empowered</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3">
-              <div className="card border-0">
-                <div className="card-body text-light py-5">
-                  <h1 className="text-center fw-bold mb-4">
-                    {" "}
-                    <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3">
-                      <FontAwesomeIcon icon={faUserCheck} />
-                    </span>
-                    300+
-                  </h1>
-                  <h5 className="text-center">Orang Terlibar</h5>
+                  <h5 className="text-center">Lokasi Kegiatan</h5>
                 </div>
               </div>
             </div>
@@ -141,20 +142,49 @@ const Impact = () => {
         >
           <div className="card border-0 rounded-5">
             <div className="card-body p-5 rounded-5 swap-partner-testimoni text-light">
-              <h3>
-                "Vivamus vel velit venenatis, aliquam turpis suscipit, laoreet
-                metus. Aliquam fringilla tortor velit, sit amet semper augue
-                condimentum sed. Phasellus eget blandit lacus. Donec lobortis
-                tempus malesuada. Cras est sem."
-              </h3>
-              <div className="mt-4 d-flex align-items-center">
-                <img
-                  className="rounded-5"
-                  src="https://letstryai.com/wp-content/uploads/2023/11/stable-diffusion-avatar-prompt-example-1.jpg"
-                  style={{ height: "50px" }}
-                  alt="swap blitar"
-                />
-                <h5 className="ms-3 fw-bold">Anna Smilla</h5>
+              <div
+                id="carouselExampleAutoplaying"
+                className="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <h3>"{testimonis[0].message}"</h3>
+                    <div className="mt-4 d-flex align-items-center">
+                      <img
+                        className="rounded-5"
+                        src={"/images/testimonis/" + testimonis[0].image}
+                        style={{ height: "50px" }}
+                        alt="swap blitar"
+                      />
+                      <h5 className="ms-3 fw-bold">{testimonis[0].name}</h5>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <h3>"{testimonis[1].message}"</h3>
+                    <div className="mt-4 d-flex align-items-center">
+                      <img
+                        className="rounded-5"
+                        src={"/images/testimonis/" + testimonis[1].image}
+                        style={{ height: "50px" }}
+                        alt="swap blitar"
+                      />
+                      <h5 className="ms-3 fw-bold">{testimonis[1].name}</h5>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <h3>"{testimonis[2].message}"</h3>
+                    <div className="mt-4 d-flex align-items-center">
+                      <img
+                        className="rounded-5"
+                        src={"/images/testimonis/" + testimonis[2].image}
+                        style={{ height: "50px" }}
+                        alt="swap blitar"
+                      />
+                      <h5 className="ms-3 fw-bold">{testimonis[2].name}</h5>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

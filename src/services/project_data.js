@@ -18,14 +18,14 @@ const projects = [
     title: "Ramadhan Kareem",
     description:
       '"Berkah untuk Semua, Kebaikan yang Terus Menyala": Program sosial yang mengulurkan tangan bagi mereka yang membutuhkan—tunawisma, disabilitas, lansia, dan masyarakat kurang mampu—dengan semangat berbagi setiap bulan Ramadhan.',
-    image: "ramadhankareem.jpg",
+    image: "ramadhankareem.png",
   },
   {
     id: 4,
     title: "Sosial Campaign",
     description:
       '"Bersama Peduli, Bersama Menginspirasi": Kampanye yang menggugah kesadaran publik untuk peduli pada isu sosial, pendidikan, dan lingkungan, menanamkan nilai-nilai SWAP di hati masyarakat.',
-    image: "project.jpg",
+    image: "sosialcampaign.png",
   },
 ];
 
