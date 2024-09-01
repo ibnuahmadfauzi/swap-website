@@ -60,6 +60,68 @@ const WhoWeAre = () => {
         </h1>
       </div>
       <Container>
+        <div className="row my-5 align-items-center">
+          <div className="col-lg-4">
+            <img
+              src="/images/swap-logo.png"
+              className="img-fluid"
+              alt="swap blitar"
+            />
+          </div>
+          <div className="col-lg-8" style={{ textAlign: "justify" }}>
+            <h3 className="text-center fw-bold my-3">Penjelasan Logo</h3>
+
+            <p>
+              <b>Candi Penataran:</b> Candi ini merupakan ikon sejarah yang
+              terkenal di Blitar, dan kami memilihnya sebagai identitas
+              organisasi. Candi Penataran melambangkan kebanggaan dan warisan
+              budaya yang kuat bagi masyarakat Blitar.
+            </p>
+
+            <p>
+              <b>Gambar Daun:</b> Daun merepresentasikan komitmen kami terhadap
+              lingkungan. Kami responsif terhadap perkembangan dan permasalahan
+              lingkungan sekitar, mencerminkan kesadaran dan tanggung jawab kami
+              dalam menjaga alam.
+            </p>
+
+            <p>
+              <b>Kobaran Api:</b> Api melambangkan semangat yang membara dalam
+              setiap kegiatan yang kami lakukan. Semangat ini menjadi pendorong
+              utama dalam mencapai tujuan dan visi organisasi.
+            </p>
+
+            <p>
+              <b>Lingkaran:</b> Lingkaran melambangkan persatuan dan
+              kedinamisan. Dalam sebuah organisasi, persatuan adalah kunci untuk
+              mencapai tujuan bersama, sementara kedinamisan memastikan bahwa
+              kami selalu bergerak maju dan berkembang.
+            </p>
+
+            <p>
+              <b>Warna:</b>
+            </p>
+            <ul>
+              <li>
+                Hijau: Warna hijau melambangkan kesegaran dan kehidupan.
+                Organisasi ini diharapkan menjadi wadah yang tepat bagi para
+                pemuda untuk berkreasi dan berkontribusi.
+              </li>
+              <li>
+                Oranye: Warna oranye memberikan kesan elegan dan santun,
+                mencerminkan pendekatan kami yang profesional dan bersahaja
+                dalam setiap tindakan.
+              </li>
+              <li>
+                Merah: Warna merah melambangkan semangat dan keberanian. Warna
+                ini mencerminkan antusiasme kami dalam menghadapi setiap
+                tantangan dan mencapai tujuan organisasi.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </Container>
+      <Container>
         <div className="py-5 swap-who-are-visimisi" style={{ display: "none" }}>
           <h3 className="fw-bold text-center mb-4">Visi dan Misi</h3>
           <div className="row">
