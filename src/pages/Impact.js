@@ -10,6 +10,7 @@ import {
 import $ from "jquery";
 import projects from "../services/project_data";
 import testimonis from "../services/testimoni_data";
+import Testimoni from "../partials/Testimoni";
 
 const Impact = () => {
   useEffect(() => {
@@ -135,61 +136,7 @@ const Impact = () => {
           </div>
         </Container>
       </div>
-      <Container>
-        <div
-          className="mb-5 swap-partner-testimoni rounded-5"
-          style={{ display: "none" }}
-        >
-          <div className="card border-0 rounded-5">
-            <div className="card-body p-5 rounded-5 swap-partner-testimoni text-light">
-              <div
-                id="carouselExampleAutoplaying"
-                className="carousel slide"
-                data-bs-ride="carousel"
-              >
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <h3>"{testimonis[0].message}"</h3>
-                    <div className="mt-4 d-flex align-items-center">
-                      <img
-                        className="rounded-5"
-                        src={"/images/testimonis/" + testimonis[0].image}
-                        style={{ height: "50px" }}
-                        alt="swap blitar"
-                      />
-                      <h5 className="ms-3 fw-bold">{testimonis[0].name}</h5>
-                    </div>
-                  </div>
-                  <div className="carousel-item">
-                    <h3>"{testimonis[1].message}"</h3>
-                    <div className="mt-4 d-flex align-items-center">
-                      <img
-                        className="rounded-5"
-                        src={"/images/testimonis/" + testimonis[1].image}
-                        style={{ height: "50px" }}
-                        alt="swap blitar"
-                      />
-                      <h5 className="ms-3 fw-bold">{testimonis[1].name}</h5>
-                    </div>
-                  </div>
-                  <div className="carousel-item">
-                    <h3>"{testimonis[2].message}"</h3>
-                    <div className="mt-4 d-flex align-items-center">
-                      <img
-                        className="rounded-5"
-                        src={"/images/testimonis/" + testimonis[2].image}
-                        style={{ height: "50px" }}
-                        alt="swap blitar"
-                      />
-                      <h5 className="ms-3 fw-bold">{testimonis[2].name}</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Container>
+      <Testimoni />
     </>
   );
 };
