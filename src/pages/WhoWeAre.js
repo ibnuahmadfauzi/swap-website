@@ -71,6 +71,15 @@ const WhoWeAre = () => {
           <div className="col-lg-8" style={{ textAlign: "justify" }}>
             <h3 className="text-center fw-bold my-3">Penjelasan Logo</h3>
 
+            <h5
+              className="mb-4 mt-3 border border-2 p-3"
+              style={{ lineHeight: "30px", fontWeight: "300" }}
+            >
+              Pencipta dari logo Smart With a Purpose Project adalah{" "}
+              <b style={{ fontWeight: "600" }}>Denny Ahmad Fauzi</b>. Dimana
+              setiap ornamen dan warna memiliki arti sebagai berikut :
+            </h5>
+
             <p>
               <b>Candi Penataran:</b> Candi ini merupakan ikon sejarah yang
               terkenal di Blitar, dan kami memilihnya sebagai identitas
