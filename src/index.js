@@ -10,6 +10,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import WhoWeAre from "./pages/WhoWeAre";
 import Impact from "./pages/Impact";
 import News from "./pages/News";
+import NewsDetail from "./pages/NewsDetail";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route index element={<Impact />} />
           <Route path="profil" element={<WhoWeAre />} />
           <Route path="berita" element={<News />} />
+          <Route path="berita/:slug" element={<NewsDetail />} />
           <Route path="kontak" element={<Contact />} />
           <Route path="donasi" element={<Donate />} />
           <Route path="*" element={<NoPage />} />

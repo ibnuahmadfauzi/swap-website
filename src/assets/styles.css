@@ -9,6 +9,14 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.square-image {
+  width: 100%; /* Ubah sesuai ukuran yang diinginkan */
+  height: 230px; /* Sama dengan lebar untuk memastikan persegi */
+  object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+  display: block; /* Opsional, menghapus jarak bawaan jika gambar adalah inline */
+  border-radius: 0; /* Opsional, memastikan sudut tidak melengkung */
+}
+
 /* .swap-navbar {
   background-color: #f36a33;
 } */
