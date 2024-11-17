@@ -60,26 +60,28 @@ const WhoWeAre = () => {
         </h1>
       </div>
       <Container>
-        <div className="row my-5 align-items-center">
+        <div className="pt-5">
+          <h3 className="text-center fw-bold">Penjelasan Logo</h3>
+        </div>
+        <div className="row mb-5 align-items-center">
           <div className="col-lg-4">
             <img
               src="/images/swap-logo.png"
               className="img-fluid"
               alt="swap blitar"
             />
+            <p className="text-center fw-semibold">
+              <small>&copy;DenyAhmadFauzi</small>
+            </p>
           </div>
           <div className="col-lg-8" style={{ textAlign: "justify" }}>
-            <h3 className="text-center fw-bold my-3">Penjelasan Logo</h3>
-
-            <h5
-              className="mb-4 mt-3 border border-2 p-3"
+            <h6
+              className="mb-4 mt-4 border border-2 p-3"
               style={{ lineHeight: "30px", fontWeight: "300" }}
             >
-              Pencipta dari logo Smart With a Purpose Project adalah{" "}
-              <b style={{ fontWeight: "600" }}>Denny Ahmad Fauzi</b>. Dimana
-              setiap ornamen dan warna memiliki arti sebagai berikut :
-            </h5>
-
+              Logo Smart with a Purpose Project memiliki makna dalam setiap
+              ornamen dan warna, sebagai berikut :
+            </h6>
             <p>
               <b>Candi Penataran:</b> Candi ini merupakan ikon sejarah yang
               terkenal di Blitar, dan kami memilihnya sebagai identitas
@@ -133,9 +135,22 @@ const WhoWeAre = () => {
       <Container>
         <div className="py-5 swap-who-are-visimisi" style={{ display: "none" }}>
           <h3 className="fw-bold text-center mb-4">Visi dan Misi</h3>
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="card mb-4 swap-who-we-are-box-visimisi border-0 rounded-0 shadow text-light">
+          <div className="row mb-3 align-items-stretch">
+            <div
+              className="col-lg-4 box-image-visimisi"
+              style={{
+                backgroundImage: "url('/images/visi-misi/visi.jpg')",
+                backgroundSize: "cover",
+              }}
+            >
+              {/* <img
+                src="/images/visi-misi/visi.jpg"
+                className="img-fluid"
+                alt="swap blitar"
+              /> */}
+            </div>
+            <div className="col-lg-8">
+              <div className="card swap-who-we-are-box-visimisi border-0 rounded-0 shadow text-light">
                 <div className="card-header">
                   <h4 className="text-center p-0 m-0 fw-bold">~ Visi ~</h4>
                 </div>
@@ -149,8 +164,23 @@ const WhoWeAre = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="card mb-4 swap-who-we-are-box-visimisi border-0 rounded-0 shadow text-light">
+          </div>
+          <div className="row align-items-stretch">
+            <div
+              className="col-lg-4 box-image-visimisi"
+              style={{
+                backgroundImage: "url('/images/visi-misi/misi.jpg')",
+                backgroundSize: "cover",
+              }}
+            >
+              {/* <img
+                src="/images/visi-misi/misi.jpg"
+                className="img-fluid"
+                alt="swap blitar"
+              /> */}
+            </div>
+            <div className="col-lg-8">
+              <div className="card swap-who-we-are-box-visimisi border-0 rounded-0 shadow text-light">
                 <div className="card-header">
                   <h4 className="text-center p-0 m-0 fw-bold">~ Misi ~</h4>
                 </div>

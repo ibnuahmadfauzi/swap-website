@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import WhoWeAre from "./pages/WhoWeAre";
 import Impact from "./pages/Impact";
+import News from "./pages/News";
 
 export default function App() {
   return (
@@ -16,9 +17,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Impact />} />
-          <Route path="who-we-are" element={<WhoWeAre />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="donate" element={<Donate />} />
+          <Route path="profil" element={<WhoWeAre />} />
+          <Route path="berita" element={<News />} />
+          <Route path="kontak" element={<Contact />} />
+          <Route path="donasi" element={<Donate />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

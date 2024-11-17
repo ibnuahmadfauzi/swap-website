@@ -51,58 +51,62 @@ const Impact = () => {
         <Container fluid>
           <h3 className="text-center fw-bold text-light">Our Impact</h3>
           <div className="row">
-            <div className="col-lg-3">
-              <div className="card border-0">
-                <div className="card-body text-light py-5">
-                  <h1 className="text-center fw-bold mb-4">
-                    {" "}
-                    <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3">
-                      <FontAwesomeIcon icon={faUserCheck} />
-                    </span>
-                    300+
-                  </h1>
-                  <h5 className="text-center">Orang Terlibat</h5>
+            <div className="col-lg-6 d-flex justify-content-around">
+              <div className="box-impact-icon">
+                <div className="card border-0">
+                  <div className="card-body text-light py-5">
+                    <h1 className="text-center fw-bold mb-4">
+                      {" "}
+                      <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3 icon-impact">
+                        <FontAwesomeIcon icon={faUserCheck} />
+                      </span>
+                      300+
+                    </h1>
+                    <h5 className="text-center">Orang Terlibat</h5>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="card border-0">
+                  <div className="card-body text-light py-5">
+                    <h1 className="text-center fw-bold mb-4">
+                      {" "}
+                      <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3 icon-impact">
+                        <FontAwesomeIcon icon={faDiagramProject} />
+                      </span>
+                      10
+                    </h1>
+                    <h5 className="text-center">Kegiatan Dijalankan</h5>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
-              <div className="card border-0">
-                <div className="card-body text-light py-5">
-                  <h1 className="text-center fw-bold mb-4">
-                    {" "}
-                    <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3">
-                      <FontAwesomeIcon icon={faDiagramProject} />
-                    </span>
-                    10
-                  </h1>
-                  <h5 className="text-center">Kegiatan Dijalankan</h5>
+            <div className="col-lg-6 d-flex justify-content-around">
+              <div className="box-impact-icon">
+                <div className="card border-0">
+                  <div className="card-body text-light py-5">
+                    <h1 className="text-center fw-bold mb-4">
+                      {" "}
+                      <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3 icon-impact">
+                        <FontAwesomeIcon icon={faLayerGroup} />
+                      </span>
+                      7
+                    </h1>
+                    <h5 className="text-center">Kemitraan Strategis</h5>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-3">
-              <div className="card border-0">
-                <div className="card-body text-light py-5">
-                  <h1 className="text-center fw-bold mb-4">
-                    {" "}
-                    <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3">
-                      <FontAwesomeIcon icon={faLayerGroup} />
-                    </span>
-                    7
-                  </h1>
-                  <h5 className="text-center">Kemitraan Strategis</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3">
-              <div className="card border-0">
-                <div className="card-body text-light py-5">
-                  <h1 className="text-center fw-bold mb-4">
-                    <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3">
-                      <FontAwesomeIcon icon={faMapLocation} />
-                    </span>
-                    7
-                  </h1>
-                  <h5 className="text-center">Lokasi Kegiatan</h5>
+              <div>
+                <div className="card border-0">
+                  <div className="card-body text-light py-5">
+                    <h1 className="text-center fw-bold mb-4">
+                      <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3 icon-impact">
+                        <FontAwesomeIcon icon={faMapLocation} />
+                      </span>
+                      7
+                    </h1>
+                    <h5 className="text-center">Lokasi Kegiatan</h5>
+                  </div>
                 </div>
               </div>
             </div>

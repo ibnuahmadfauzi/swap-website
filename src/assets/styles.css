@@ -70,4 +70,26 @@ body {
   .swap-our-impact .card-body {
     padding: 20px !important;
   }
+
+  .icon-impact {
+    display: block !important;
+    width: 80px !important;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+    padding: 10px 0;
+  }
+  .box-impact-icon {
+    width: 50% !important;
+  }
+
+  .box-image-visimisi {
+    height: 200px !important;
+    width: 94%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.21);
+    box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.21);
+  }
 }

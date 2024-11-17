@@ -28,24 +28,29 @@ const Navbar = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                  Impact
+                  Aksi SWAP
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/who-we-are">
-                  Who We Are
+                <a className="nav-link" href="/profil">
+                  Profil
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/berita">
+                  Berita
                 </a>
               </li>
             </ul>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
-                  Contact
+                <a className="nav-link" href="/kontak">
+                  Kontak
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/donate">
-                  Donate
+                <a className="nav-link" href="/donasi">
+                  Donasi
                 </a>
               </li>
             </ul>
