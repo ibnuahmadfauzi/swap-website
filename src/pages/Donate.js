@@ -1,4 +1,5 @@
 import { Container } from "react-bootstrap";
+import donation_data from "../services/donation_data";
 
 const Donate = () => {
   return (
@@ -44,62 +45,55 @@ const Donate = () => {
         </div>
       </div>
       <div className="row justify-content-center my-5">
-        <div className="col-lg-6">
-          <div className="card bg-light shadow border-0">
-            <div className="card-body">
-              <div className="row align-items-center">
-                <div className="col-lg-4 p-2">
-                  <img
-                    src="/images/donations/rumah-kinasih.jpg"
-                    className="img-fluid"
-                  />
+        {donation_data
+          .sort((a, b) => (a.status === "Terbuka Untuk Donasi" ? -1 : 1))
+          .map((value, index) => (
+            <div className="col-lg-6 mb-3" key={index}>
+              <div className="card bg-light shadow border-0">
+                <div className="card-body">
+                  <div className="row align-items-center">
+                    <div className="col-lg-4 p-2">
+                      <img
+                        src={"/images/donations/" + value.image}
+                        className="img-fluid"
+                        alt={value.title}
+                      />
+                    </div>
+                    <div
+                      className="col-lg-8 p-2"
+                      style={{ textAlign: "justify" }}
+                    >
+                      <p className="fw-semibold">{value.title}</p>
+                      <div
+                        style={{ textAlign: "justify" }}
+                        dangerouslySetInnerHTML={{ __html: value.body }}
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <p className="text-center">
+                      <span className="d-block mb-3">
+                        <span className="fw-semibold">Periode Donasi :</span>{" "}
+                        {value.periode}
+                      </span>
+                      <span className="d-block">
+                        <span className="fw-semibold">Status :</span>{" "}
+                        {value.status === "Tutup dan Terpenuhi" ? (
+                          <span className="badge text-bg-danger">
+                            {value.status}
+                          </span>
+                        ) : (
+                          <span className="badge text-bg-primary">
+                            {value.status}
+                          </span>
+                        )}
+                      </span>
+                    </p>
+                  </div>
                 </div>
-                <div className="col-lg-8 p-2" style={{ textAlign: "justify" }}>
-                  <p className="fw-semibold">SENYUM UNTUK RUMAH KINASIH</p>
-                  <p>
-                    <small>
-                      Kamu masih menunda untuk berbuat kebaikan? Jangan ya!
-                      Karena kami hadir untuk kamu semua yang ingin berbagi
-                      kepada sesama.
-                    </small>
-                  </p>
-
-                  <p>
-                    <small>
-                      Edisi kali ini kita akan mengajak untuk berinteraksi
-                      dengan Rumah Kinasih yang menampung teman-teman
-                      disabilitas dan gangguan mental. Kegiatannya nanti akan
-                      dilakukan secara paralel meliputi pengenalan obat herbal,
-                      komitmen hidup sehat dan sesi obrol erat. Seru banget kan!
-                    </small>
-                  </p>
-
-                  <p>
-                    <small>
-                      Bagi kamu yang tertarik, bisa banget gabung kegiatan kami
-                      atau melalui donasi di postingan kami. Ditunggu aksi
-                      nyatamu sekarang!!
-                    </small>
-                  </p>
-                </div>
-              </div>
-              <div>
-                <p className="text-center">
-                  <span className="d-block mb-3">
-                    <span className="fw-semibold">Periode Donasi :</span> 22
-                    September 2024 - 6 Oktober 2024
-                  </span>
-                  <span className="d-block">
-                    <span className="fw-semibold">Status :</span>{" "}
-                    <span className="badge text-bg-success">
-                      Tutup dan Terpenuhi
-                    </span>
-                  </span>
-                </p>
               </div>
             </div>
-          </div>
-        </div>
+          ))}
       </div>
     </Container>
   );

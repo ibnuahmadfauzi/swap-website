@@ -9,6 +9,7 @@ import {
   faWhatsapp,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import Sidebar from "../partials/Sidebar";
 
 const NewsDetail = () => {
   const { slug } = useParams();
@@ -38,7 +39,7 @@ const NewsDetail = () => {
                 <div>
                   <small>{foundNews.created_at}</small>
                 </div>
-                <div className="mt-3 d-flex align-items-center">
+                {/* <div className="mt-3 d-flex align-items-center">
                   <small className="me-2">Share :</small>{" "}
                   <a
                     href={
@@ -62,10 +63,16 @@ const NewsDetail = () => {
                   >
                     <FontAwesomeIcon icon={faXTwitter} />
                   </a>
-                  <a href="#" className="fs-4 text-dark mx-1">
+                  <a
+                    href={
+                      "https://www.facebook.com/sharer/sharer.php?u=" +
+                      window.location.href
+                    }
+                    className="fs-4 text-dark mx-1"
+                  >
                     <FontAwesomeIcon icon={faFacebook} />
                   </a>
-                </div>
+                </div> */}
                 <div>
                   <img
                     src={"/images/news/" + foundNews.thumbnail}
@@ -80,25 +87,7 @@ const NewsDetail = () => {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="card border-0 bg-light">
-              <div className="card-body">
-                <h6 className="m-0 text-center fw-semibold">Cari Berita</h6>
-                <hr />
-                <form>
-                  <input
-                    type="text"
-                    className="form-control form-control-sm"
-                    placeholder="Cari Berita ..."
-                  />
-                  <button
-                    type="submit"
-                    className="btn btn-secondary btn-sm mt-3 w-100"
-                  >
-                    Cari
-                  </button>
-                </form>
-              </div>
-            </div>
+            <Sidebar />
           </div>
         </div>
       </div>

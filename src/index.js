@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
@@ -20,6 +20,11 @@ export default function App() {
           <Route index element={<Impact />} />
           <Route path="profil" element={<WhoWeAre />} />
           <Route path="berita" element={<News />} />
+          <Route path="berita/cari/:keyword" element={<News />} />
+          <Route
+            path="berita/cari"
+            element={<Navigate to="/berita" replace />}
+          />
           <Route path="berita/:slug" element={<NewsDetail />} />
           <Route path="kontak" element={<Contact />} />
           <Route path="donasi" element={<Donate />} />

@@ -7,12 +7,13 @@ const Footer = () => {
       <Container>
         <h3 className="fw-bold text-center">Trusted by</h3>
         <div className="d-flex justify-content-center align-items-center py-3">
-          {partners.map((value) => (
+          {partners.map((value, index) => (
             <img
               className="mx-2"
               src={"/images/partners/" + value.image}
               style={{ height: "100px" }}
               alt="swap blitar"
+              key={index}
             />
           ))}
         </div>
