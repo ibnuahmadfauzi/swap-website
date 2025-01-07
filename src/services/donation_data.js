@@ -13,7 +13,7 @@ const donation_data = [
     title: "HADIR KEMBALI!!! ",
     body: "<p><small> Halo Smart People, gimana tahun 2024 sudah berbagi kebaikan apa saja nih? Sudah ada rencana baik di 2025?</small></p><p><small>Nah daripada bingung, bisa banget Smart People membagikan kebaikannya melalui donasi untuk Senyum Rumah Kinasih #2. Kali ini kegiatan-nya akan lebih banyak dan tentunya bermanfaat bagi teman-teman ODGJ yang bergabung di Rumah Kinasih. Selain itu, Smart People juga bisa bergabung langsung di tanggal 4 Januari nanti, catat tanggalnya!!!</small></p> <p><small>Yuk, lakukan aksi kecil dan berdampak bagi sesama! Cek postingan kami!!</small></p>",
     periode: "29 November 2024 - 2 Januari 2025",
-    status: "Terbuka Untuk Donasi",
+    status: "Tutup dan Terpenuhi",
   },
 ];
 
