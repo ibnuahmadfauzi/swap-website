@@ -27,7 +27,7 @@ export default function App() {
           />
           <Route path="berita/:slug" element={<NewsDetail />} />
           <Route path="kontak" element={<Contact />} />
-          <Route path="donasi" element={<Donate />} />
+          <Route path="donate" element={<Donate />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

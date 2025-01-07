@@ -49,7 +49,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/donasi">
+                <a className="nav-link" href="/donate">
                   Donasi
                 </a>
               </li>

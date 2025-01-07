@@ -59,7 +59,7 @@ const Sidebar = () => {
         <div className="card-body">
           <h6 className="m-0 text-center fw-semibold">Donasi Terbuka</h6>
           <hr />
-          <a href="/donasi">
+          <a href="/donate">
             <img
               src="/images/donations/dinasi-rumah-kinasih-2.PNG"
               class="img-fluid"
