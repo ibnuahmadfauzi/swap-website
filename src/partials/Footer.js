@@ -6,10 +6,10 @@ const Footer = () => {
     <>
       <Container>
         <h3 className="fw-bold text-center">Trusted by</h3>
-        <div className="d-flex justify-content-center align-items-center py-3">
+        <div className="d-flex flex-wrap justify-content-center align-items-center py-3">
           {partners.map((value, index) => (
             <img
-              className="mx-2"
+              className="mx-2 mb-3"
               src={"/images/partners/" + value.image}
               style={{ height: "100px" }}
               alt="swap blitar"

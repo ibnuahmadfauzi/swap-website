@@ -20,6 +20,9 @@ const News = () => {
     const result = searchNews(keyword);
     newsDisplay = result;
   }
+
+  newsDisplay.sort((a, b) => b.id - a.id);
+
   return (
     <Container>
       <div className="my-4">

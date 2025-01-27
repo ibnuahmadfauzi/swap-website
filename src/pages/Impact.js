@@ -74,7 +74,7 @@ const Impact = () => {
                       <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3 icon-impact">
                         <FontAwesomeIcon icon={faDiagramProject} />
                       </span>
-                      10
+                      12
                     </h1>
                     <h5 className="text-center">Kegiatan Dijalankan</h5>
                   </div>
@@ -90,7 +90,7 @@ const Impact = () => {
                       <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3 icon-impact">
                         <FontAwesomeIcon icon={faLayerGroup} />
                       </span>
-                      7
+                      10+
                     </h1>
                     <h5 className="text-center">Kemitraan Strategis</h5>
                   </div>

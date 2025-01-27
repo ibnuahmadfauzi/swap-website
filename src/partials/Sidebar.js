@@ -6,6 +6,8 @@ const Sidebar = () => {
 
   const latestNews = news.slice(-5);
 
+  latestNews.sort((a, b) => b.id - a.id);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (query.trim() !== "") {
@@ -43,7 +45,7 @@ const Sidebar = () => {
           <h6 className="m-0 text-center fw-semibold">Berita Terbaru</h6>
           <hr />
           {latestNews.map((value, index) => (
-            <div key={index}>
+            <div key={index} className="mb-3">
               <a
                 href={"/berita/" + value.slug}
                 className="text-dark text-decoration-none mb-3"
@@ -57,13 +59,10 @@ const Sidebar = () => {
       </div>
       <div className="card border-0 bg-light mb-4">
         <div className="card-body">
-          <h6 className="m-0 text-center fw-semibold">Donasi Terbuka</h6>
+          <h6 className="m-0 text-center fw-semibold">Informasi Donasi</h6>
           <hr />
           <a href="/donate">
-            <img
-              src="/images/donations/dinasi-rumah-kinasih-2.PNG"
-              class="img-fluid"
-            />
+            <img src="/images/donations/closed.png" class="img-fluid" />
           </a>
         </div>
       </div>

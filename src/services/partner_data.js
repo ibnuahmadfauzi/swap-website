@@ -14,6 +14,16 @@ const partners = [
     name: "MI Miftahun Najah",
     image: "mi-miftahun-najah.png",
   },
+  {
+    id: 4,
+    name: "Rumah Kinasih",
+    image: "rumah_kinasih.png",
+  },
+  {
+    id: 5,
+    name: "Herbalova",
+    image: "herbalova.png",
+  },
 ];
 
 export default partners;

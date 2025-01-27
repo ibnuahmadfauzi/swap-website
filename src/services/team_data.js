@@ -72,16 +72,6 @@ const teams = [
   },
   {
     id: 8,
-    name: "Syifa 'Urriyadhoh",
-    position: "Media Social Specialist",
-    definition:
-      "Mengelola dan mengoptimalkan kehadiran organisasi di platform media sosial, menciptakan konten, dan berinteraksi dengan audiens untuk meningkatkan visibilitas dan engagement.",
-    jobdesk:
-      "<ul><li>Mengelola dan mengembangkan strategi media sosial SWAP.</li><li>Membuat dan memposting konten di platform media sosial.</li><li>Berinteraksi dengan audiens dan memonitor umpan balik serta tren.</li><li>Mengukur efektivitas kampanye media sosial dan melaporkan hasilnya.</li></ul>",
-    image: "syfa.png",
-  },
-  {
-    id: 9,
     name: "Evita Ummul",
     position: "Digital Campaign Specialist",
     definition:
@@ -89,6 +79,16 @@ const teams = [
     jobdesk:
       "<ul><li>Merancang strategi kampanye digital yang inovatif untuk mempromosikan program dan inisiatif di berbagai platform online.</li><li>Berkolaborasi dengan tim media dan program untuk memastikan kampanye digital selaras dengan tujuan dan pesan organisasi.</li></ul>",
     image: "evita.png",
+  },
+  {
+    id: 9,
+    name: "Syifa 'Urriyadhoh",
+    position: "Koordinator Logistik",
+    definition:
+      "Bertanggung jawab untuk merencanakan, mengelola, dan mengawasi alur distribusi barang, peralatan, atau material yang dibutuhkan dalam kegiatan organisasi. Posisi ini memastikan bahwa semua kebutuhan logistik, mulai dari pengadaan hingga pengiriman, dilakukan secara efisien, tepat waktu, dan sesuai anggaran, sambil berkoordinasi dengan tim internal dan mitra eksternal.",
+    jobdesk:
+      "<ul><li>Mendukung logistik langsung di lokasi kegiatan.</li><li>Berkoordinasi dengan komunitas lokal untuk kelancaran distribusi.</li><li>Menangani peralatan, transportasi, dan kebutuhan logistik lainnya.</li></ul>",
+    image: "syfa.png",
   },
 
   {
