@@ -94,7 +94,12 @@ const Testimoni = () => {
                           style={{ height: "50px" }}
                           alt="swap blitar"
                         />
-                        <h5 className="ms-3 fw-bold">{testimoni.name}</h5>
+                        <div>
+                          <h5 className="ms-3 fw-bold">{testimoni.name}</h5>
+                          {testimoni.position != false && (
+                            <span className="ms-3">{testimoni.position}</span>
+                          )}
+                        </div>
                       </div>
                     </div>
                   ))}
