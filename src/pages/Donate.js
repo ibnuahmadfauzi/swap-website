@@ -22,6 +22,19 @@ const Donate = () => {
                     alt="swap-blitar"
                   />
                 </div>
+                <div className="col-lg-6 py-3">
+                  <div className="text-center">
+                    <img
+                      style={{ width: "80px" }}
+                      src="/images/donations/bank_mandiri.webp"
+                    />
+                    <p>
+                      <strong>1915051109</strong>
+                      <br />
+                      a/n Muhamat Bahrul Huda
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
