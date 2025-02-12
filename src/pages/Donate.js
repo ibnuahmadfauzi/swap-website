@@ -26,7 +26,8 @@ const Donate = () => {
                   <div className="text-center">
                     <img
                       style={{ width: "80px" }}
-                      src="/images/donations/bank_mandiri.webp"
+                      src="/images/donations/bni.png"
+                      className="mb-2"
                     />
                     <p>
                       <strong>1915051109</strong>
