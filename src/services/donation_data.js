@@ -15,6 +15,14 @@ const donation_data = [
     periode: "29 November 2024 - 2 Januari 2025",
     status: "Tutup dan Terpenuhi",
   },
+  {
+    id: 3,
+    image: "ramadhan.jpg",
+    title: "BERBAGI KEBAHAGIAAN DI RAMADHAN KAREEM",
+    body: "<p><small>Masih menunda untuk berbuat kebaikan? Jangan lagi, ya! Kali ini kami mengajakmu untuk berbagi kebahagiaan di bulan penuh berkah ini bersama adik-adik yatim piatu di Panti Asuhan Yargis, Kelurahan Kepanjen Kidul, Kota Blitar.</small></p><p><small>Di Berbuka 4.0, kita akan mengadakan buka puasa bersama dan berbagai kegiatan seru lainnya untuk menciptakan momen berharga dan senyum di wajah mereka. Tidak hanya berbuka, nantinya akan ada sesi inspirasi dan games meraih mimpi lho 😉</small></p> <p><small>Yuk, jadi bagian dari kebaikan ini! Kamu bisa ikut berpartisipasi melalui donasi atau dukungan lainnya. Saatnya salurkan kebaikan dari sekarang! 🌟</small></p>",
+    periode: "09 Maret 2025 - 27 Maret 2025",
+    status: "Terbuka Untuk Donasi",
+  },
 ];
 
 export default donation_data;
