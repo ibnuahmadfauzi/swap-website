@@ -24,6 +24,11 @@ const partners = [
     name: "Herbalova",
     image: "herbalova.png",
   },
+  {
+    id: 6,
+    name: "Yayasan Rukun Ginawa Sentosa",
+    image: "yargis.png",
+  },
 ];
 
 export default partners;
