@@ -62,7 +62,7 @@ const Sidebar = () => {
           <h6 className="m-0 text-center fw-semibold">Informasi Donasi</h6>
           <hr />
           <a href="/donate">
-            <img src="/images/donations/ramadhan.jpg" class="img-fluid" />
+            <img src="/images/donations/closed.png" class="img-fluid" />
           </a>
         </div>
       </div>
