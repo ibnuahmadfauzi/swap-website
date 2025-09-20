@@ -22,7 +22,7 @@ const NewsDetail = () => {
       <div className="my-4">
         <div className="row">
           <div className="col-lg-8">
-            <div className="card border-0 bg-light">
+            <div className="card border-0 bg-light mb-5">
               <div className="card-body">
                 <div>
                   <a href="/" className="text-decoration-none">

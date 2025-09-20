@@ -61,8 +61,8 @@ const Sidebar = () => {
         <div className="card-body">
           <h6 className="m-0 text-center fw-semibold">Informasi Kegiatan</h6>
           <hr />
-          <a href="/berita/saka-karsa-pilar-tekad-pemuda-blitar-untuk-tumbuh-dan-berdaya">
-            <img src="/images/news/sakakarsa.jpg" class="img-fluid" />
+          <a href="/berita/saka-karsa-meracik-rasa-cerita-dan-kapasitas-diri-pemuda-blitar">
+            <img src="/images/news/sakakarsa-selesai.png" class="img-fluid" />
           </a>
         </div>
       </div>

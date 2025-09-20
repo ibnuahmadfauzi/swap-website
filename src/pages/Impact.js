@@ -60,7 +60,7 @@ const Impact = () => {
                       <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3 icon-impact">
                         <FontAwesomeIcon icon={faUserCheck} />
                       </span>
-                      400+
+                      450+
                     </h1>
                     <h5 className="text-center">Orang Terlibat</h5>
                   </div>
@@ -90,7 +90,7 @@ const Impact = () => {
                       <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3 icon-impact">
                         <FontAwesomeIcon icon={faLayerGroup} />
                       </span>
-                      10+
+                      12
                     </h1>
                     <h5 className="text-center">Kemitraan Strategis</h5>
                   </div>
@@ -103,7 +103,7 @@ const Impact = () => {
                       <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3 icon-impact">
                         <FontAwesomeIcon icon={faMapLocation} />
                       </span>
-                      8
+                      9
                     </h1>
                     <h5 className="text-center">Lokasi Kegiatan</h5>
                   </div>
