@@ -1,6 +1,14 @@
 const testimonis = [
   {
     id: 1,
+    name: "Mas Agung.",
+    position: "Owner Buku Buka",
+    message:
+      "Terima kasih, teman-teman SWAP, sudah mau berkolaborasi dengan Buku Buka & Dapur Mardjono. Semoga kedepannya SWAP bisa terus menghadirkan kegiatan-kegiatan positif lainnya. Ditunggu kegiatan-kegiatan berikutnya. ✨",
+    image: "masagung.png",
+  },
+  {
+    id: 2,
     name: "Krisviani",
     position: false,
     message:
@@ -8,7 +16,7 @@ const testimonis = [
     image: "krisviani.png",
   },
   {
-    id: 2,
+    id: 3,
     name: "Ibu Yayuk",
     position: false,
     message:
@@ -16,7 +24,7 @@ const testimonis = [
     image: "buyayuk.png",
   },
   {
-    id: 3,
+    id: 4,
     name: "Dr. Vina",
     position: false,
     message:
@@ -24,7 +32,7 @@ const testimonis = [
     image: "dr-vina.png",
   },
   {
-    id: 4,
+    id: 5,
     name: "Imelda Ndira Intan Pracilia",
     position: "Diajeng Persahabatan Kota Blitar tahun 2021",
     message:
@@ -32,7 +40,7 @@ const testimonis = [
     image: "imelda.jpg",
   },
   {
-    id: 5,
+    id: 6,
     name: "Fajar Apriliansyah",
     position: "Wakil I Kangmas Kota Blitar tahun 2024",
     message:
@@ -40,20 +48,12 @@ const testimonis = [
     image: "fajar.jpg",
   },
   {
-    id: 6,
+    id: 7,
     name: "Sella Ardhisa R.",
     position: "Founder Herbalova",
     message:
       "Terima kasih Herbalova dan Swap atas kontribusi positifnya dan sangat inspiratif. Saya mewakili team Herbalova mengucapkan terimakasih banyak kepada swap dan sangat  terkesan  atas  kolaborasi Herbalova dan Swap. Kolaborasi yang tidak hanya memberikan dukungan materi, tapi juga membangun kesadaran dan kepedulian terhadap komunitas berkebutuhan khusus. Kolaborasi ini membuktikan bahwa kebaikan dan kepedulian dapat mengubah hidup orang banyak. Terima kasih atas dedikasi dan kontribusi positifnya. Semoga kegiatan seperti ini akan selalu berjalan dan berdampak untuk sesama.",
     image: "sella.jpg",
-  },
-  {
-    id: 7,
-    name: "Mas Agung.",
-    position: "Owner Buku Buka",
-    message:
-      "Terima kasih, teman-teman SWAP, sudah mau berkolaborasi dengan Buku Buka & Dapur Mardjono. Semoga kedepannya SWAP bisa terus menghadirkan kegiatan-kegiatan positif lainnya. Ditunggu kegiatan-kegiatan berikutnya. ✨",
-    image: "masagung.png",
   },
 ];
 
