@@ -47,6 +47,14 @@ const testimonis = [
       "Terima kasih Herbalova dan Swap atas kontribusi positifnya dan sangat inspiratif. Saya mewakili team Herbalova mengucapkan terimakasih banyak kepada swap dan sangat  terkesan  atas  kolaborasi Herbalova dan Swap. Kolaborasi yang tidak hanya memberikan dukungan materi, tapi juga membangun kesadaran dan kepedulian terhadap komunitas berkebutuhan khusus. Kolaborasi ini membuktikan bahwa kebaikan dan kepedulian dapat mengubah hidup orang banyak. Terima kasih atas dedikasi dan kontribusi positifnya. Semoga kegiatan seperti ini akan selalu berjalan dan berdampak untuk sesama.",
     image: "sella.jpg",
   },
+  {
+    id: 7,
+    name: "Mas Agung.",
+    position: "Owner Buku Buka",
+    message:
+      "Terima kasih, teman-teman SWAP, sudah mau berkolaborasi dengan Buku Buka & Dapur Mardjono. Semoga kedepannya SWAP bisa terus menghadirkan kegiatan-kegiatan positif lainnya. Ditunggu kegiatan-kegiatan berikutnya. ✨",
+    image: "masagung.png",
+  },
 ];
 
 export default testimonis;
