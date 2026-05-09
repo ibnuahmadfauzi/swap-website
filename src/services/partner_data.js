@@ -39,6 +39,11 @@ const partners = [
     name: "Dapur Mardjono",
     image: "dapurmardjono.png",
   },
+  {
+    id: 9,
+    name: "Griya Sakinah",
+    image: "griyasakinah.png",
+  },
 ];
 
 export default partners;

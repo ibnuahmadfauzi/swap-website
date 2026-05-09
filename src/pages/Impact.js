@@ -16,7 +16,7 @@ const Impact = () => {
   useEffect(() => {
     const handleScroll = () => {
       $(
-        ".swap-impact-banner, .swap-our-impact, .swap-impact-projects, .swap-partner-testimoni"
+        ".swap-impact-banner, .swap-our-impact, .swap-impact-projects, .swap-partner-testimoni",
       ).each(function () {
         const topOfElement = $(this).offset().top;
         const bottomOfWindow = $(window).scrollTop() + $(window).height();
@@ -60,7 +60,7 @@ const Impact = () => {
                       <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3 icon-impact">
                         <FontAwesomeIcon icon={faUserCheck} />
                       </span>
-                      450+
+                      490
                     </h1>
                     <h5 className="text-center">Orang Terlibat</h5>
                   </div>
@@ -74,7 +74,7 @@ const Impact = () => {
                       <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3 icon-impact">
                         <FontAwesomeIcon icon={faDiagramProject} />
                       </span>
-                      13
+                      14
                     </h1>
                     <h5 className="text-center">Kegiatan Dijalankan</h5>
                   </div>
@@ -90,7 +90,7 @@ const Impact = () => {
                       <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3 icon-impact">
                         <FontAwesomeIcon icon={faLayerGroup} />
                       </span>
-                      12
+                      13
                     </h1>
                     <h5 className="text-center">Kemitraan Strategis</h5>
                   </div>
@@ -103,7 +103,7 @@ const Impact = () => {
                       <span className="bg-light swap-box-icon-impact me-3 px-3 rounded-3 icon-impact">
                         <FontAwesomeIcon icon={faMapLocation} />
                       </span>
-                      9
+                      10
                     </h1>
                     <h5 className="text-center">Lokasi Kegiatan</h5>
                   </div>
